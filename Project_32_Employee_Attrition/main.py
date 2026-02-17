@@ -66,3 +66,10 @@ print(confusion_matrix(y_val, preds))
 importances = pd.Series(model.feature_importances_, index=X.columns).sort_values(ascending=False)
 print("\n--- 特徴量重要度（TOP5） ---")
 print(importances.head(5))
+
+from sklearn.metrics import classification_report
+
+# 昨日の続き
+print("\n--- 詳細な評価レポート ---")
+# 適合率(Precision)、再現率(Recall)、F1スコアを一気に出力
+print(classification_report(y_val, preds))
