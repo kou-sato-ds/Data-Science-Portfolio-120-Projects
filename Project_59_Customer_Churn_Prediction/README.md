@@ -11,3 +11,5 @@
 4. **Split (K-fold / Stratify)**: 層化抽出を用いた交差検証の準備
 5. **Fit**: 分類モデルの学習
 6. **Predict/Submit**: 予測結果の出力と精度の確認
+### 実行結果
+![Execution Result](./result_score.png)
