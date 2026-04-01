@@ -1,56 +1,52 @@
-# 📚 Data Science Portfolio: 120+ Practical Implementations
+# 📚 Data Science Portfolio: Targeted Business Solutions
 
-Udemy Data Science Marathonを通じて構築した、**120以上の具体的な課題解決シナリオ**を体系化した実装アーカイブです。
-特定のライブラリや手法に固執せず、データの性質とビジネス要求に合わせて「最適なアルゴリズムを即座に選択・実装できる引き出し」の証明として公開しています。
-
----
-
-## 📈 ADR: Architectural Decision Records (意思決定の根拠)
-
-> **「なぜ120もの多種多様なプロジェクトを網羅したのか」**
-> 実務の現場では、単一のモデルですべての課題を解決することは不可能です。
-> 古典的な統計手法から最新のディープラーニング、NLPまでを横断的に実装することで、**「精度、解釈性、計算コスト」のトレードオフを理解し、ビジネスのROIを最大化する手法を最短距離で提案できる状態**を作るためです。
+本リポジトリは、Udemy Data Science Marathonを通じて習得した120以上の手法の中から、**実務への即応性が高い5つのコア・プロジェクト**を厳選して体系化した実装アーカイブです。
+「どの手法を使うか」ではなく、「どの課題をどう解決するか」というビジネスROIの視点で構成しています。
 
 ---
 
-## 📊 ポートフォリオの構成 (Knowledge Map)
+## 📊 ポートフォリオの構成 (Solution Map)
 
 ```mermaid
 mindmap
-  root((120 Projects))
-    Supervised Learning
-      Regression: Housing, Sales Forecasting
-      Classification: Churn, Fraud, Diagnosis
-      Ensemble: XGBoost, LightGBM, CatBoost
-    Unsupervised Learning
-      Clustering: Customer Segmentation
-      Dimensionality Reduction: PCA, t-SNE
-    Advanced Analytics
-      NLP: Sentiment Analysis, Text Mining
-      Time Series: Stock, Demand Forecasting
-      Deep Learning: PyTorch, TensorFlow
+  root((Core Projects))
+    Natural Language Processing
+      Project 24: Keyword Extraction (TF-IDF)
+    Human Resource Analytics
+      Project 32: Employee Attrition (Stay/Left)
+    Classification & Imbalance
+      Project 33: Find Legendary Pokemon
+    Computer Vision
+      Project 34: Real-time Face Detection
+    Customer Relationship Management
+      Project 59: Churn Prediction (XGBoost)
 ```
 
 ---
 
-## 🛠️ エンジニアリング・ハイライト
+## 🌟 厳選ケーススタディ (Featured Case Studies)
 
-### 1. 探索的データ分析 (EDA) の定型化
-- **Action**: 全プロジェクトで欠損値処理、外れ値検知、相関分析を標準化。
-- **Why**: データの「筋」を正しく捉えることで、モデル構築前の段階で結果の8割が決まるという実務の重要性を形式知化しています。
+画像エビデンスに基づいた、各プロジェクトのビジネス的意義です。
 
-### 2. アルゴリズムの適材適所 (Right Tool for the Right Job)
-- **Action**: 単純な回帰から、勾配ブースティング、ニューラルネットワークまでを比較実装。
-- **Why**: 解釈性が求められるコンサルティング案件（アクセンチュア的）と、純粋な精度が求められるエンジニアリング案件（Amazon的）の両方に対応できる柔軟性を担保しています。
+### 1. 【NLP】キーワード抽出によるインサイト自動化 (Project 24)
+- **概要**: TF-IDFを用い、大量のテキストからドメイン特有の重要語句を抽出。
+- **実務価値**: カスタマーサクセスにおけるVoC分析の自動化など、非構造化データからの迅速な意思決定を支援。
 
----
+### 2. 【HRテック】組織改善のための離職要因分析 (Project 32)
+- **概要**: 従業員属性データから離職（Stay/Left）を予測。
+- **実務価値**: Stratified K-foldによる汎化性能の担保により、特定の部署や属性における離職リスクを定量化。
 
-## 📂 カテゴリ別インデックス (Directory Index)
+### 3. 【不均衡データ】稀少イベントの検知最適化 (Project 33)
+- **概要**: 「伝説のポケモン」という極端に少ないサンプルを特定。
+- **実務価値**: 不正検知や機器故障予測など、サンプルが極端に少ない「稀少事象」への対処技術を実証。
 
-- `Regression/`: 数値予測、価格最適化
-- `Classification/`: 顧客離反、異常検知、カテゴリ分類
-- `NLP/`: 感情分析、テキスト分類
-- `Time-Series/`: 需要予測、在庫最適化
+### 4. 【画像解析】エッジAIへの応用可能性 (Project 34)
+- **概要**: OpenCVを用いたリアルタイム顔検知（黄金の6ステップ）。
+- **実務価値**: 実店舗での来店客属性分析など、リアルタイム動画像処理のパイプライン構築能力を証明。
+
+### 5. 【CRM】顧客離反予測によるLTV最大化 (Project 59)
+- **概要**: XGBoostを用いた高精度な銀行顧客の離反予測。
+- **実務価値**: 離反予備軍を事前に特定することで、マーケティングコストを最適化し、既存顧客の維持率を向上。
 
 ---
 
@@ -58,6 +54,6 @@ mindmap
 
 **Kou Sato (Moheji)**
 * **Mission**: 「技術をビジネスの価値（ROI）に翻訳する」
-* **Goal**: 2026年11月、DE/DS転身。120の「引き出し」から、現場の課題に最適な解をデリバリーします。
+* **Goal**: 2026年11月、DE/DS転身。5つの「即戦力武器」を携え、現場の課題を解決します。
 
 © 2026 kou-sato-ds
